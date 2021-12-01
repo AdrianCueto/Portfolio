@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Cormorant Garamond', serif;
+}
+
+header{
+
+  display: block;
+  
+  
+}
+
+#hero-container{
+  display: block;
+  background-color: black;
+  height: 75vh;
+}
+.nav-list{
+  background: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 2rem;
+}
+.nav-item a{
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  color: black;
+}
+.nav-item:first-child{
+  margin-right: ;
+}
